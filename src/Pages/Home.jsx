@@ -20,12 +20,14 @@ function Home() {
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full">
                             <h1 className="text-2xl font-bold hover:text-gray-500">
-                                Login to read posts
+                                Login to read posts home 
                             </h1>
                         </div>
                     </div>
+                    
                 </Container>
             </div>
+            
         )
     }
     return (
@@ -39,6 +41,7 @@ function Home() {
                     ))}
                 </div>
             </Container>
+           
         </div>
     )
 }
